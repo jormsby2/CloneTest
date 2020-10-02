@@ -1,4 +1,4 @@
-name: "test.py"
+name: "Demo Application"
 
 main: "/core/test.py"
 

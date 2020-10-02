@@ -1,5 +1,9 @@
 name: "Demo Application"
 
+description: "adds two numbers
+
+author: "me"
+
 main: "/core/test.py"
 
 input:

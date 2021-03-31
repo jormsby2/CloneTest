@@ -17,9 +17,9 @@ EXPOSE 9898
 
 #allow for cli args
 ARG userIn
-ENTRYPOINT ["python"]
+ENTRYPOINT ["python","test.py"]
 
-#name of program we want to excute
+
 CMD [$userIn]
 
 

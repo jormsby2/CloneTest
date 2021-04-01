@@ -15,9 +15,11 @@ VOLUME ["/data"]
 # Expose application 
 EXPOSE 9898
 
+ENTRYPOINT ["python"]
+
 #allow for cli args
 ARG userIn
-RUN $userIn
+CMD $userIn
 
 
 

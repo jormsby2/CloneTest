@@ -17,9 +17,8 @@ EXPOSE 9898
 
 RUN chmod +x test.py
 
-ENTRYPOINT ["./test.py"]
+ENTRYPOINT ["python"]
 
-CMD ["10"]
 
 
 

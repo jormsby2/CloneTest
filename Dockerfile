@@ -17,8 +17,7 @@ EXPOSE 9898
 
 #allow for cli args
 ARG userIn
-
-CMD $userIn
+RUN $userIn
 
 
 

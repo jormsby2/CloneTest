@@ -20,8 +20,7 @@ ARG userIn
 
 
 
-RUN $userIn
-
+RUN ["python","test.py", $userIn]
 
 
 

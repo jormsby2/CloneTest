@@ -12,16 +12,10 @@ COPY . .
 # Define mountable directories.
 VOLUME ["/data"]
 
-# Expose application 
-EXPOSE 9898
 
-RUN chmod +x test.py
+ARG userIn
 
-ENTRYPOINT ["python", "test.py"]
+ENTRYPOINT ["python"]
 
 
-
-
-
-
-
+CMD [$userIn]

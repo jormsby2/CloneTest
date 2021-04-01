@@ -15,6 +15,8 @@ VOLUME ["/data"]
 # Expose application 
 EXPOSE 9898
 
+RUN chmod +x test.py
+
 ENTRYPOINT ["./test.py"]
 
 CMD ["10"]

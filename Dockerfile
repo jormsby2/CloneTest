@@ -18,10 +18,7 @@ EXPOSE 9898
 #allow for cli args
 ARG userIn
 
-ENTRYPOINT ["python"]
-
-
-CMD ["test.py", "77"]
+CMD $userIn
 
 
 

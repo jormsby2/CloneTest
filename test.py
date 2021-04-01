@@ -1,2 +1,3 @@
-x = input()
-print(x)
+import sys
+print ("Py execution finished")
+print ("Argument List:", str(sys.argv))

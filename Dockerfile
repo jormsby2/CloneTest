@@ -20,7 +20,7 @@ ARG userIn
 
 
 
-CMD $userIn
+RUN $userIn
 
 
 

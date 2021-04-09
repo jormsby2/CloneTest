@@ -3,7 +3,8 @@ name: "Demo Application"
 description: "adds two numbers"
 author: "me"
 
-main: "test.py"
+main: "test"
+extension: "py"
 
 input:
 - param1: "int"

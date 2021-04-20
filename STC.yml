@@ -1,0 +1,12 @@
+name: "Demo Application"
+
+description: "adds two numbers"
+author: "me"
+
+main: "test.py"
+
+input:
+- param1: "int"
+- param2: "int"
+
+output: "out.txt"
